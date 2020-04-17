@@ -1,0 +1,34 @@
+{
+    "name": "codeacious/mvc",
+    "description": "General helpers and plugins for Laminas MVC applications",
+    "license": "MIT",
+    "homepage": "https://github.com/CodeaciousAU/phplib-mvc",
+    "authors": [
+        {
+            "name": "Glenn Schmidt",
+            "email": "glenn@codeacious.com",
+            "homepage": "https://codeacious.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "codeacious/stdlib": "^1.0",
+        "laminas/laminas-http": "^2.0",
+        "laminas/laminas-log": "^2.0",
+        "laminas/laminas-mvc": "^3.0",
+        "laminas/laminas-router": "^3.0",
+        "laminas/laminas-servicemanager": "^3.0",
+        "laminas/laminas-uri": "^2.0",
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeacious\\Mvc\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
+}
